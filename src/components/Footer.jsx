@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../style';
 import { footerLinks, socialMedia } from '../constants';
 import { logo } from '../assets';
+
 function Footer() {
 	return (
 		<section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -52,7 +53,7 @@ function Footer() {
 				</div>
 			</div>
 			<div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3fe45]'>
-				<p className='font-poppins text-center font-normal leading-[27px] text-white text-[14px] m'>
+				<p className='font-poppins text-center font-normal leading-[27px] text-white text-[14px]'>
 					2022 HooBank. All Rights Reserved.
 				</p>
 				<div className='flex md:mt-0 mt-6'>
